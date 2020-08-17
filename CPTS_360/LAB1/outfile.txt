@@ -1,0 +1,170 @@
+enter main
+&argc=bfcc8b80 argv=bfcc8c14 env=bfcc8c1c
+&a=bfcc8b50 &b=bfcc8b54 &c=bfcc8b58
+
+MyPrintf Ouput
+&argc=0xBFCC8B80
+ argv=0xBFCC8C14
+ env=0xBFCC8C1C
+
+&a=0xBFCC8B50
+ &b=0xBFCC8B54
+ &c=0xBFCC8B58
+
+
+argc value: -1077113836
+argv[] value: 1
+
+enter A
+Address of d: bfcc8b10
+Address of e: bfcc8b14
+Address of f: bfcc8b18
+
+enter B
+Address of g: bfcc8ae0
+Address of h: bfcc8ae4
+Address of i: bfcc8ae8
+
+enter C
+Address of u: bfcc8aa0
+Address of v: bfcc8aa4
+Address of w: bfcc8aa8
+Address of i: bfcc8aac
+Address of p: bfcc8ab0
+
+Stack Frame Link List
+Address: bfcc8af8
+Address: bfcc8b28
+Address: bfcc8b68
+
+Stack Contents
+Address: bfcc8ab0       Value: bfcc8ab0
+Address: bfcc8ab4       Value: bfcc8b68
+Address: bfcc8ab8       Value:        2
+Address: bfcc8abc       Value: 7bdc6e00
+Address: bfcc8ac0       Value: b7790000
+Address: bfcc8ac4       Value: b7790000
+Address: bfcc8ac8       Value: bfcc8af8
+Address: bfcc8acc       Value:  80486c7
+Address: bfcc8ad0       Value:        7
+Address: bfcc8ad4       Value:        8
+Address: bfcc8ad8       Value: bfcc8ae4
+Address: bfcc8adc       Value: bfcc8ae8
+Address: bfcc8ae0       Value:        7
+Address: bfcc8ae4       Value:        8
+Address: bfcc8ae8       Value:        9
+Address: bfcc8aec       Value: 7bdc6e00
+Address: bfcc8af0       Value: b7790000
+Address: bfcc8af4       Value: b7790000
+Address: bfcc8af8       Value: bfcc8b28
+Address: bfcc8afc       Value:  8048641
+Address: bfcc8b00       Value:        4
+Address: bfcc8b04       Value:        5
+Address: bfcc8b08       Value: bfcc8b14
+Address: bfcc8b0c       Value: bfcc8b18
+Address: bfcc8b10       Value:        4
+Address: bfcc8b14       Value:        5
+Address: bfcc8b18       Value:        6
+Address: bfcc8b1c       Value: 7bdc6e00
+Address: bfcc8b20       Value: b7790000
+Address: bfcc8b24       Value: b7790000
+Address: bfcc8b28       Value: bfcc8b68
+Address: bfcc8b2c       Value:  80485af
+Address: bfcc8b30       Value:        1
+Address: bfcc8b34       Value:        2
+Address: bfcc8b38       Value:        1
+Address: bfcc8b3c       Value: bfcc8b58
+Address: bfcc8b40       Value:        1
+Address: bfcc8b44       Value:        0
+Address: bfcc8b48       Value: bfcc8c1c
+Address: bfcc8b4c       Value: bfcc8c14
+Address: bfcc8b50       Value:        1
+Address: bfcc8b54       Value:        2
+Address: bfcc8b58       Value:        3
+Address: bfcc8b5c       Value: 7bdc6e00
+Address: bfcc8b60       Value: bfcc8b80
+Address: bfcc8b64       Value:        0
+Address: bfcc8b68       Value:        0
+Address: bfcc8b6c       Value: b75f6637
+Address: bfcc8b70       Value: b7790000
+Address: bfcc8b74       Value: b7790000
+Address: bfcc8b78       Value:        0
+Address: bfcc8b7c       Value: b75f6637
+Address: bfcc8b80       Value:        1
+Address: bfcc8b84       Value: bfcc8c14
+Address: bfcc8b88       Value: bfcc8c1c
+Address: bfcc8b8c       Value:        0
+Address: bfcc8b90       Value:        0
+Address: bfcc8b94       Value:        0
+Address: bfcc8b98       Value: b7790000
+Address: bfcc8b9c       Value: b77d4c04
+Address: bfcc8ba0       Value: b77d4000
+Address: bfcc8ba4       Value:        0
+Address: bfcc8ba8       Value: b7790000
+Address: bfcc8bac       Value: b7790000
+Address: bfcc8bb0       Value:        0
+Address: bfcc8bb4       Value: 31be1b7c
+Address: bfcc8bb8       Value: 1662f56d
+Address: bfcc8bbc       Value:        0
+Address: bfcc8bc0       Value:        0
+Address: bfcc8bc4       Value:        0
+Address: bfcc8bc8       Value:        1
+Address: bfcc8bcc       Value:  80483d0
+Address: bfcc8bd0       Value:        0
+Address: bfcc8bd4       Value: b77c5010
+Address: bfcc8bd8       Value: b77bf880
+Address: bfcc8bdc       Value: b77d4000
+Address: bfcc8be0       Value:        1
+Address: bfcc8be4       Value:  80483d0
+Address: bfcc8be8       Value:        0
+Address: bfcc8bec       Value:  80483f1
+Address: bfcc8bf0       Value:  80484cb
+Address: bfcc8bf4       Value:        1
+Address: bfcc8bf8       Value: bfcc8c14
+Address: bfcc8bfc       Value:  8048ab0
+Address: bfcc8c00       Value:  8048b10
+Address: bfcc8c04       Value: b77bf880
+Address: bfcc8c08       Value: bfcc8c0c
+Address: bfcc8c0c       Value: b77d4918
+Address: bfcc8c10       Value:        1
+Address: bfcc8c14       Value: bfcca2a6
+Address: bfcc8c18       Value:        0
+Address: bfcc8c1c       Value: bfcca2ae
+Address: bfcc8c20       Value: bfcca2b9
+Address: bfcc8c24       Value: bfcca2cb
+Address: bfcc8c28       Value: bfcca2fe
+Address: bfcc8c2c       Value: bfcca314
+Address: bfcc8c30       Value: bfcca323
+Address: bfcc8c34       Value: bfcca357
+Address: bfcc8c38       Value: bfcca36b
+Address: bfcc8c3c       Value: bfcca37c
+Address: bfcc8c40       Value: bfcca393
+Address: bfcc8c44       Value: bfcca3a3
+Address: bfcc8c48       Value: bfcca3c6
+Address: bfcc8c4c       Value: bfcca3d8
+Address: bfcc8c50       Value: bfcca41b
+Address: bfcc8c54       Value: bfcca432
+Address: bfcc8c58       Value: bfcca45f
+Address: bfcc8c5c       Value: bfcca46c
+Address: bfcc8c60       Value: bfcca9f4
+Address: bfcc8c64       Value: bfccaa07
+Address: bfcc8c68       Value: bfccaa41
+Address: bfcc8c6c       Value: bfccaa5c
+Address: bfcc8c70       Value: bfccaa90
+Address: bfcc8c74       Value: bfccaab9
+Address: bfcc8c78       Value: bfccaaec
+Address: bfcc8c7c       Value: bfccab30
+Address: bfcc8c80       Value: bfccab53
+Address: bfcc8c84       Value: bfccab6a
+Address: bfcc8c88       Value: bfccabd2
+Address: bfcc8c8c       Value: bfccabe4
+Address: bfcc8c90       Value: bfccac05
+Address: bfcc8c94       Value: bfccac1a
+Address: bfcc8c98       Value: bfccac43
+Address: bfcc8c9c       Value: bfccac5d
+Address: bfcc8ca0       Value: bfccac71
+Address: bfcc8ca4       Value: bfccac84
+Address: bfcc8ca8       Value: bfccac95
+exit B
+exit A
+exit main

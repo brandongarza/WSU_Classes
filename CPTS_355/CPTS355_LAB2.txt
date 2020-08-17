@@ -1,0 +1,131 @@
+(*CPTS 355 LAB2*)
+
+fun map f [] = []
+  | map f (x::rest) = (f x)::(map f rest);
+
+fun fold f base [] = base
+  | fold f base (x::rest) = f x (fold f base rest);
+
+fun filter pred [] = []
+  | filter pred (x::rest) =
+		if pred x then x::(filter pred rest)
+		else (filter pred rest);
+		
+fun filter2 pred [] = []
+  | filter2 pred (x::rest) =
+		if pred x = false then x::(filter2 pred rest)
+		else (filter2 pred rest);
+  
+  
+(*----------Problem 1----------*)
+(*Part A: numbersToSum*)
+
+fun numbersToSum n [] = []
+  | numbersToSum n (x::rest) = 
+		if n <= x then []
+		else x::(numbersToSum (n-x) rest);
+
+(*Part B: numbersToSumTail*)
+
+fun sum [] = 0
+  | sum (x::rest) = x + sum rest;
+
+fun removeLast [x] = [] 
+  | removeLast (x::rest) = x::(removeLast rest);
+
+fun numbersToSumTail n [] = []
+  | numbersToSumTail n (x::rest) = 
+		if n > sum (x::rest) then (x::rest)
+		else numbersToSumTail n (removeLast (x::rest));
+
+(*----------Problem 2----------*)
+
+fun exists n [] = false 
+  | exists n (x::rest) = if n=x then true else (exists n rest);
+  
+fun partition F L = ((filter F L), (filter2 F L));
+
+(*----------Problem 3----------*)
+
+fun countInList [] x = 0 
+  | countInList (y::rest) x = 
+		if (x=y) then 1 + (countInList rest x)
+		else countInList rest x;
+
+fun areAllUnique [] = true
+  | areAllUnique (x::rest) = 
+		if [] = filter (fn x => (x>1)) (map (countInList (x::rest)) (x::rest))
+			then true
+		else false;
+
+(*----------Problem 4----------*)
+(*Part A: sum*)
+
+fun add x y = x+y;
+
+fun sum L = fold add 0 (map (fold add 0) L);
+
+(*Part B: sumOption*)
+
+datatype intOption = NONE | SOME of int;
+
+fun addOption NONE NONE = NONE
+  | addOption NONE (SOME x) = SOME x
+  | addOption (SOME x) NONE = SOME x
+  | addOption (SOME x) (SOME y) = SOME (x+y);
+  
+fun sumOption L = fold addOption NONE (map (fold addOption NONE) L);
+
+(*Part C: sumEither*)
+
+datatype either = IString of string | IInt of int;
+
+fun str2int s = valOf(Int.fromString(s));
+
+fun addEither (IInt x) (IInt y) = IInt (x+y)
+  | addEither (IString x) (IInt y) = IInt ((str2int x) + y)
+  | addEither (IInt x) (IString y) = IInt (x + (str2int y))
+  | addEither (IString x) (IString y) = IInt ((str2int x) + (str2int y));
+  
+fun sumEither L = fold addEither (IInt 0) (map (fold addEither (IInt 0)) L);
+
+(*----------Problem 5----------*)
+(*Part A: depthScan*)
+
+datatype 'a Tree = LEAF of 'a | NODE of 'a * ('a Tree) * ('a Tree);
+
+fun depthScan (LEAF x) = [x]
+  | depthScan (NODE (tree, left, right)) = (depthScan left) @ (depthScan right) @ [tree];
+
+(*Part B: depthSearch*)
+
+fun helper1 (LEAF (x)) level v = 
+			if (v = x) then level else 1;
+ 
+fun helper2 (NODE(y, L, R)) level v = 
+			if ((helper2 L (level+1) v) >= 0) then (helper2 L (level+1) v)
+			else if ((helper2 R (level+1) v) >= 0) then (helper2 R (level+1) v)
+			else if (y = v) then level else ~1; 
+			
+fun depthSearch (LEAF x) v = helper1 (LEAF x) 1 v
+  | depthSearch (NODE(y, L, R)) v = helper2 (NODE(y, L, R)) 1 v;
+
+(*Part C: addTrees*)
+
+fun createTree (LEAF(v)) = LEAF (v)
+  | createTree (NODE(v,t1,t2)) = (NODE (v, (createTree t1), (createTree t2)));
+
+fun addTrees (LEAF x) (LEAF y) = LEAF (x+y)
+  | addTrees (LEAF x) (NODE (y, l2, r2)) = (NODE(x+y, (createTree l2), (createTree r2)))
+  | addTrees (NODE (x, l1, r1)) (LEAF y) = (NODE(x+y, (createTree l1), (createTree r1)))
+  | addTrees (NODE (x, l1, r1)) (NODE (y, l2, r2)) = (NODE(x+y, (addTrees l1 l2), (addTrees r1 r2)));
+  
+  
+  
+val L1 = LEAF "1";
+val L2 = LEAF "2";
+val L3 = LEAF "3";
+val L4 = LEAF "4";
+val N1 = NODE("5",L1,L2);
+val N2 = NODE("6",N1,L3);
+val t1 = NODE("7",N2,L4);

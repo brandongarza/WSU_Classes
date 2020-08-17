@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a794ea4-2c35-4042-a79c-02d6b6e50116" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1386054167">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="LAB4_Part1" value="3" />
+          <entry key="Python Console" value="3099" />
+          <entry key="py" value="7854" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="10956" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HW4_part2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="615" column="19" selection-start-line="615" selection-start-column="19" selection-end-line="615" selection-end-column="19" />
+              <folding>
+                <element signature="e#199#602#0" />
+                <element signature="e#782#814#0" />
+                <element signature="e#836#988#0" />
+                <element signature="e#1011#1042#0" />
+                <element signature="e#1074#1191#0" />
+                <element signature="e#1216#1397#0" />
+                <element signature="e#1415#1618#0" />
+                <element signature="e#1636#1839#0" />
+                <element signature="e#1857#2060#0" />
+                <element signature="e#2078#2281#0" />
+                <element signature="e#2298#2512#0" />
+                <element signature="e#2529#2742#0" />
+                <element signature="e#2759#2972#0" />
+                <element signature="e#2993#3171#0" />
+                <element signature="e#3189#3807#0" />
+                <element signature="e#3827#4164#0" />
+                <element signature="e#4183#4516#0" />
+                <element signature="e#4536#4795#0" />
+                <element signature="e#4813#4945#0" />
+                <element signature="e#4964#5198#0" />
+                <element signature="e#5216#5234#0" />
+                <element signature="e#5689#5743#0" />
+                <element signature="e#5763#5818#0" />
+                <element signature="e#5839#5872#0" />
+                <element signature="e#5892#6047#0" />
+                <element signature="e#6065#6085#0" />
+                <element signature="e#6105#6160#0" />
+                <marker date="1542351390205" expanded="true" signature="6174:6424" ph="..." />
+                <marker date="1542351390205" expanded="true" signature="6814:7362" ph="..." />
+                <marker date="1542351390205" expanded="true" signature="7375:7672" ph="..." />
+                <marker date="1542351390205" expanded="true" signature="10130:11621" ph="..." />
+                <marker date="1542351390205" expanded="true" signature="12674:13429" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LAB4_Part1" />
+        <option value="$PROJECT_DIR$/HW4_part1.py" />
+        <option value="$PROJECT_DIR$/HW4_part2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.HW4_part2">
+    <configuration name="HW4_part1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CPTS355_LAB4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW4_part1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HW4_part2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CPTS355_LAB4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW4_part2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.HW4_part1" />
+      <item itemvalue="Python.HW4_part2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.HW4_part2" />
+        <item itemvalue="Python.HW4_part1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a794ea4-2c35-4042-a79c-02d6b6e50116" name="Default Changelist" comment="" />
+      <created>1540848513482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540848513482</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1526232" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32562277" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4074733" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.2846975" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="opstack" language="Python" />
+        <watch expression="dictstack" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>dictstack</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>opstack</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LAB4_Part1" />
+    <entry file="file://$PROJECT_DIR$/HW4_part1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9571">
+          <caret line="563" column="26" lean-forward="true" selection-start-line="563" selection-start-column="26" selection-end-line="563" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW4_part2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="615" column="19" selection-start-line="615" selection-start-column="19" selection-end-line="615" selection-end-column="19" />
+          <folding>
+            <element signature="e#199#602#0" />
+            <element signature="e#782#814#0" />
+            <element signature="e#836#988#0" />
+            <element signature="e#1011#1042#0" />
+            <element signature="e#1074#1191#0" />
+            <element signature="e#1216#1397#0" />
+            <element signature="e#1415#1618#0" />
+            <element signature="e#1636#1839#0" />
+            <element signature="e#1857#2060#0" />
+            <element signature="e#2078#2281#0" />
+            <element signature="e#2298#2512#0" />
+            <element signature="e#2529#2742#0" />
+            <element signature="e#2759#2972#0" />
+            <element signature="e#2993#3171#0" />
+            <element signature="e#3189#3807#0" />
+            <element signature="e#3827#4164#0" />
+            <element signature="e#4183#4516#0" />
+            <element signature="e#4536#4795#0" />
+            <element signature="e#4813#4945#0" />
+            <element signature="e#4964#5198#0" />
+            <element signature="e#5216#5234#0" />
+            <element signature="e#5689#5743#0" />
+            <element signature="e#5763#5818#0" />
+            <element signature="e#5839#5872#0" />
+            <element signature="e#5892#6047#0" />
+            <element signature="e#6065#6085#0" />
+            <element signature="e#6105#6160#0" />
+            <marker date="1542351390205" expanded="true" signature="6174:6424" ph="..." />
+            <marker date="1542351390205" expanded="true" signature="6814:7362" ph="..." />
+            <marker date="1542351390205" expanded="true" signature="7375:7672" ph="..." />
+            <marker date="1542351390205" expanded="true" signature="10130:11621" ph="..." />
+            <marker date="1542351390205" expanded="true" signature="12674:13429" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

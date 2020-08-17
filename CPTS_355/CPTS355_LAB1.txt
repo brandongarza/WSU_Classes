@@ -1,0 +1,101 @@
+(*CPTS 355 LAB1*)
+
+(*Problem 1*)
+
+(*Part A*)
+fun exists (x, []) = false 
+  | exists (x, y::rest) = 
+	   if (x=y) then true 
+	   else exists(x, rest);
+
+(*Part B*)
+(*The type is not ('a*'a list) -> bool because the 'a*' is an alpha
+type meaning that it can be representative of any variable type. 
+In this function we are comparing variables so we want to use the comparable
+type ''a*'' instead.*)
+
+(*Part C*)
+fun countInList [] x = 0 
+  | countInList (y::rest) x = 
+	if (x=y) then 1 + (countInList rest x)
+	else countInList rest x;
+
+
+(*Problem 2*)
+
+fun countInList2 ([],x) = 0
+  | countInList(y::rest, x) = 
+	if y=x then 1+countInList(rest,x) 
+	else countInList(rest,x);
+
+fun max(x,y) = if x>y then x else y;
+
+fun removeFromList([],x) = []
+  | removeFromList(y::rest,x) = 
+	if y=x then removeFromList(rest,x) 
+	else y::removeFromList(rest,x);
+
+fun repeatElement(x,0) = []
+  | repeatElement(x,n) = x::repeatElement(x,n-1);
+
+fun listDiff([],l) = []
+  | listDiff(y::rest,l) = repeatElement(y,max(countInList2(y::rest,y)-countInList2(l,y),0))
+  @ listDiff(removeFromList(y::rest,y),l);
+
+
+(*Problem 3*)
+
+fun firstN [] n = []
+  | firstN (x::rest) 0 = []
+  | firstN (x::rest) n = 
+	if length (x::rest) < n then (x::rest)
+	else x::(firstN rest (n-1));
+
+
+(*Problem 4*)
+
+(*Part A*)
+fun busFinder x [] = []
+  | busFinder x ((bus,(y::rest))::rest2) =
+	if exists (x,(y::rest)) then bus::busFinder x rest2
+	else busFinder x rest2;
+
+val buses = [
+("Lentil",["Chinook", "Orchard", "Valley", "Emerald","Providence",
+"Stadium", "Main", "Arbor", "Sunnyside", "Fountain", "Crestview",
+"Wheatland", "Walmart", "Bishop", "Derby", "Dilke"]),
+("Wheat",["Chinook", "Orchard", "Valley", "Maple","Aspen",
+"TerreView", "Clay", "Dismores", "Martin", "Bishop", "Walmart",
+"PorchLight", "Campus"]),
+("Silver",["TransferStation", "PorchLight", "Stadium",
+"Bishop","Walmart", "Shopco", "RockeyWay"]),
+("Blue",["TransferStation", "State", "Larry", "TerreView","Grand",
+"TacoBell", "Chinook", "Library"]),
+("Gray",["TransferStation", "Wawawai", "Main",
+"Sunnyside","Crestview", "CityHall", "Stadium", "Colorado"])
+];
+
+(*Part B*)
+(*The type is ''a -> ('b * ''a list) list -> 'b list and not 
+''a -> ('a * ''a list) list -> 'a list because in the function we do not 
+compare the element of the tuple representing the bus name to the elements 
+representing the stop names so the compiler shows different types for 
+these elements as they are not comparable.*)
+
+(*Problem 5*)
+
+fun addResistors [] = 0.0
+  | addResistors (x::rest) = ((1.0 / x) + addResistors (rest));
+
+fun parallelResistors (x::rest) = 1.0 / addResistors (x::rest);
+
+(*Problem 6*)
+
+fun pairHelper n buff [] = [rev(buff)]
+  | pairHelper n buff (x::rest) = 
+		if length(buff) = n then buff::(pairHelper ...
+		else pairHelper n (x::buff) rest;
+
+fun pairNleft (x, [])
+
+fun pairNright (x, [])

@@ -1,0 +1,11 @@
+﻿  main.cpp
+c:\users\brand\documents\wsu classes\summer 2018\cpts 223\cpts223_pa4\cpts223_pa4\mazebuildersmall.h(101): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\brand\documents\wsu classes\summer 2018\cpts 223\cpts223_pa4\cpts223_pa4\mazebuilderlarge.h(102): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+c:\users\brand\documents\wsu classes\summer 2018\cpts 223\cpts223_pa4\cpts223_pa4\cell.h(107): warning C4715: 'Cell::checkBorder': not all control paths return a value
+c:\users\brand\documents\wsu classes\summer 2018\cpts 223\cpts223_pa4\cpts223_pa4\cell.h(77): warning C4715: 'Cell::checkWall': not all control paths return a value
+  Skipping... (no relevant changes detected)
+  BuildSmallMaze.cpp
+  BuildLargeMaze.cpp
+  CPTS223_PA4.vcxproj -> C:\Users\brand\Documents\WSU Classes\Summer 2018\CPTS 223\CPTS223_PA4\Debug\CPTS223_PA4.exe
+  CPTS223_PA4.vcxproj -> C:\Users\brand\Documents\WSU Classes\Summer 2018\CPTS 223\CPTS223_PA4\Debug\CPTS223_PA4.pdb (Full PDB)
